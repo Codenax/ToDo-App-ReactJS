@@ -1,0 +1,27 @@
+h1 {
+    text-transform: uppercase;
+    color: aquamarine;
+}
+.input-group-text {
+    height: fit-content !important;
+    width: fit-content !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.table-view {
+    .input-group-text {
+        height: fit-content !important;
+        width: fit-content !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+    }
+}
+.list-view{
+    button{
+        height: fit-content;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
