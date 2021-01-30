@@ -15,12 +15,16 @@ const Controller = ({ term, handleSearch, toggleFrom, handleFilter, view, change
             toggleFrom={toggleFrom}
         />
         <Row className='my-4'>
-            <Col md={4}>
+        
+            <Col md={4} className='d-flex'>
+            <div className='mx-auto mb-3 ml-md-0'>
                 <FilterController
                     handleFilter={handleFilter}
                 />
+            </div>
             </Col>
-            <Col md={4} >
+          
+            <Col md={3}  lg={4} className="filter-radio" >
                 <ViewController
                     view={view}
                     changeView={changeView}
@@ -28,7 +32,7 @@ const Controller = ({ term, handleSearch, toggleFrom, handleFilter, view, change
             </Col>
             <Col md={4} className='d-flex'>
 
-                <div className='ml-auto'>
+                <div className='mx-auto mr-md-0'>
                     <BulkController
                         clearSelected={clearSelected}
                         clearCompleted={clearCompleted}
