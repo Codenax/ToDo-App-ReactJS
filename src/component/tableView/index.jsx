@@ -16,7 +16,8 @@ const RowItem = ({ todo, toggleSelect, toggleComplete }) => {
                 {todo.time.toDateString()}
             </th>
             <th>
-                {todo.text}
+                {todo.text} <br></br>
+               <span className='font-weight-light'>{todo.description}</span> 
             </th>
             <th>
                 <Button variant={todo.isComplete ? 'danger' : 'success'} onClick={() => toggleComplete(todo.id)}>

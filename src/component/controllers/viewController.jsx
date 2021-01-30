@@ -1,7 +1,7 @@
 import React from 'react'
 import { InputGroup, FormLabel } from 'react-bootstrap'
 import PropTypes from 'prop-types'
-
+import './index.scss'
 
 const ViewController = ({view, changeView}) => (
 

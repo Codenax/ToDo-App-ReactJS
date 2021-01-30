@@ -16,6 +16,7 @@ const ListItem = ({ todo,toggleSelect,toggleComplete }) => {
             />
             <div className='mx-3'>
                 <h4>{todo.text}</h4>
+                <h6>{todo.description}</h6>
                 <p>{todo.time.toDateString()}</p>
             </div>
             <Button className='ml-auto' variant ={todo.isComplete ? 'danger': 'success'} onClick ={()=> toggleComplete(todo.id)} >

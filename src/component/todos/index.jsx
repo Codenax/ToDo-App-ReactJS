@@ -14,24 +14,24 @@ class Todos extends React.Component {
     state = {
         todos: [{
             id: 'asdweka',
-            text: 'Main todo text',
-            description: 'simple description',
+            text: 'Javascript 2nd project',
+            description: 'Need to complete',
             time: new Date(),
             isComplete: false,
             isSelect: false
         },
         {
             id: 'asdka',
-            text: 'Another todo text',
-            description: 'simple description',
+            text: 'Jbcoder final project',
+            description: 'Need to complete',
             time: new Date(),
             isComplete: false,
             isSelect: false
         },
         {
             id: 'asdsdgka',
-            text: 'Jb main todo text',
-            description: 'simple description',
+            text: 'Express js 2nd project',
+            description: 'Need to complete',
             time: new Date(),
             isComplete: false,
             isSelect: false
