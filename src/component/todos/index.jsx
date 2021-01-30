@@ -1,6 +1,6 @@
 import React from 'react';
 import shortid from 'shortid'
-import './index.scss';
+import './index.css';
 
 import ListView from '../listView'
 import TableView from '../tableView'

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './app.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import Todos from './component/todos';
 

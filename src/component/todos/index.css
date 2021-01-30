@@ -8,8 +8,7 @@ h1 {
     margin-top: auto !important;
     margin-bottom: auto !important;
 }
-.table-view {
-    .input-group-text {
+.table-view .input-group-text {
         height: fit-content !important;
         width: fit-content !important;
         margin-right: auto !important;
@@ -17,11 +16,9 @@ h1 {
         margin-top: auto !important;
         margin-bottom: auto !important;
     }
-}
-.list-view{
-    button{
+
+.list-view button{
         height: fit-content;
         margin-top: auto;
         margin-bottom: auto;
     }
-}
